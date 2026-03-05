@@ -1,0 +1,162 @@
+/* ===== GLOBAL STYLING ===== */
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #e3f2fd, #fce4ec);
+}
+
+/* ===== SIDEBAR ===== */
+
+.sidebar {
+    width: 230px;
+    height: 100vh;
+    background: linear-gradient(180deg, #1e3c72, #2a5298);
+    position: fixed;
+    padding: 25px 20px;
+    color: white;
+    box-shadow: 3px 0px 10px rgba(0,0,0,0.2);
+}
+
+.sidebar h2 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.sidebar a {
+    display: block;
+    padding: 12px;
+    margin: 10px 0;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    background: rgba(255,255,255,0.2);
+    transform: translateX(5px);
+}
+
+/* ===== CONTENT AREA ===== */
+
+.content {
+    margin-left: 260px;
+    padding: 40px;
+}
+
+/* ===== CARDS (Dashboard) ===== */
+
+.card {
+    background: white;
+    padding: 25px;
+    margin: 20px 0;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+/* ===== FORM STYLING ===== */
+
+form {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    max-width: 500px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+input:focus, select:focus {
+    border-color: #2a5298;
+    outline: none;
+    box-shadow: 0 0 8px rgba(42,82,152,0.3);
+}
+
+/* ===== BUTTONS ===== */
+
+button {
+    background: linear-gradient(to right, #ff512f, #dd2476);
+    border: none;
+    padding: 12px 20px;
+    color: white;
+    font-size: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+/* ===== TABLE STYLING ===== */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+th {
+    background: #2a5298;
+    color: white;
+    padding: 12px;
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background: #f2f6ff;
+}
+
+tr:hover {
+    background: #e3f2fd;
+    transition: 0.3s;
+}
+
+/* ===== HEADINGS ===== */
+
+h1, h2 {
+    color: #1e3c72;
+}
+body {
+    font-family: Arial;
+    background-color: #f4f6f9;
+    color: #333;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+body.dark-mode .sidebar {
+    background-color: #111;
+}
+
+body.dark-mode a {
+    color: #ddd;
+}

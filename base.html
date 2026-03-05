@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Timetable Scheduler</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+<div class="sidebar">
+    <h2>Smart Scheduler</h2>
+<a href="/dashboard">Dashboard</a>
+<a href="/add_faculty">Add Faculty</a>
+<a href="/add_room">Add Room</a>
+<a href="/add_subject">Add Subject</a>
+<a href="/generate">Generate Timetable</a>
+<a href="/timetable">View Timetable</a>
+</div>
+<div class="content">
+{% block content %}
+{% endblock %}
+</div>
+</body>
+</html>

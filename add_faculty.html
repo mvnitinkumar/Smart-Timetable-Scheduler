@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h2>Add Faculty</h2>
+
+<form method="POST">
+
+<input type="text" name="name" placeholder="Faculty Name" required><br><br>
+
+<input type="text" name="department" placeholder="Department" required><br><br>
+
+<input type="number" name="max_hours" placeholder="Max Hours Per Week" required><br><br>
+
+<select name="preference">
+<option value="morning">Morning</option>
+<option value="afternoon">Afternoon</option>
+</select><br><br>
+
+<button type="submit">Add Faculty</button>
+
+</form>
+
+{% endblock %}

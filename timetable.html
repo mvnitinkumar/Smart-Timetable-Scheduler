@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2>Weekly Timetable</h2>
+
+<table border="1" style="width:100%; text-align:center">
+
+<tr>
+    <th>Time</th>
+    {% for day in days %}
+    <th>{{ day }}</th>
+    {% endfor %}
+</tr>
+
+{% for time, day_data in timetable.items() %}
+<tr>
+
+<td>{{ time }}</td>
+
+{% for day in days %}
+<td>
+    {{ day_data.get(day,"") }}
+</td>
+{% endfor %}
+
+</tr>
+{% endfor %}
+
+</table>
+
+{% endblock %}
