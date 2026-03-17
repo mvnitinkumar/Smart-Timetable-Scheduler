@@ -1,20 +1,20 @@
 # Smart-Timetable-Scheduler
 Smart Timetable Scheduler is an intelligent web-based system that automatically generates optimized academic timetables for institutions. It efficiently manages subjects, faculty, rooms, and time slots while minimizing conflicts and ensuring balanced scheduling using smart algorithms.
 
-#Frontend
+Frontend
 HTML5
 CSS3
 JavaScript
 Jinja2 (for dynamic templating with Flask)
 
-#Backend
+Backend
 Python
 Flask Framework
 
-#Database
+Database
 sqlite3
 
-#Features
+Features
 Core Features :
 Automatic timetable generation
 Subject and faculty management
