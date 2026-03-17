@@ -14,7 +14,7 @@ Flask Framework
 Database :
 sqlite3
 
-Features
+
 Core Features :
 Automatic timetable generation ,
 Subject and faculty management ,
