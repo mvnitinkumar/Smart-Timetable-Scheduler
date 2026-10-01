@@ -64,6 +64,7 @@ init_db()
 
 
 # ---------------- DASHBOARD ----------------
+# Main dashboard route
 @app.route("/")
 @app.route("/dashboard")
 def dashboard():
