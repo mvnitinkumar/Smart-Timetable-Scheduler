@@ -11,7 +11,7 @@ def get_db():
     return conn
 
 
-# ---------------- DATABASE INITIALIZATION ----------------
+# ---------------- DATABASE INITIALIZATION ---------------
 def init_db():
     conn = get_db()
     cursor = conn.cursor()
